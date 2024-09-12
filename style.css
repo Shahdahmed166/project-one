@@ -123,6 +123,7 @@ header nav a:hover{
 /* meadia header and home */
 @media (max-width: 768px) {
     header .containerr {
+        flex-direction: column;
         align-items: flex-start;
     }
     header .containerr nav{
@@ -142,6 +143,7 @@ header nav a:hover{
     header .containerr nav a{
         padding: 10px;
         border-bottom: 1px solid rgb(150, 142, 142);
+        text-align: left;
     }
     #toggle:checked ~ nav{
         display: flex;
